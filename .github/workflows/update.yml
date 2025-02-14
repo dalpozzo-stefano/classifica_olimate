@@ -1,7 +1,12 @@
+name: Update Leaderboard
+on:
+  schedule:
+    - cron: "*/10 * * * *"  # Esegui ogni 10 minuti (adatta a piacere)
+  workflow_dispatch:  # Permetti esecuzioni manuali
+
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 10  # Aumenta il timeout a 10 minuti
     steps:
       - uses: actions/checkout@v4
 
