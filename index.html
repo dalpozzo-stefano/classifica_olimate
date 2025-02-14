@@ -7,6 +7,18 @@
             .then(response => response.json())
             .then(data => {
                 // Inserisci qui la logica per visualizzare i dati
+                let html = '';
+                  data.forEach(user => {
+                    html += `
+                      <div class="utente">
+                        Posizione: ${user.posizione}<br>
+                        Nome: ${user.nome}<br>
+                        Punteggio: ${user.punteggio}
+                      </div>
+                      <hr>
+                    `;
+                  });
+                  document.getElementById("classifica").innerHTML = html;
             });
     </script>
 </body>
