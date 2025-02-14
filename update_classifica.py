@@ -30,9 +30,9 @@ def estrai_classifica():
             continue
 
         posizione = colonne[0].text.strip()
-        nome = colonne[1].text.strip()
+        nome_con_spazi = colonne[1].text.strip()
         punteggio = colonne[2].text.strip()
-        nome_fixato = " ".join(nome.split())
+        nome = " ".join(nome_con_spazi.split())
         if nome in utenti_filtrati:
             classifica.append({"posizione": posizione, "nome": nome, "punteggio": punteggio})
 
