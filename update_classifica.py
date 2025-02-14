@@ -7,7 +7,7 @@ import time
 URL = "https://gasmatematica.altervista.org/onehundredproblems/leaderboard.php?ID=12905"
 
 # Utenti da includere nella classifica
-utenti_filtrati = {"GiovanniIotti", "StefanoDalPozzo", "FilippoCasadio"} 
+utenti_filtrati = {"Giovanni Iotti", "Stefano Dal Pozzo", "Filippo Casadio"} 
 
 def estrai_classifica():
     response = requests.get(URL)
@@ -30,9 +30,9 @@ def estrai_classifica():
             continue
 
         posizione = colonne[0].text.strip()
-        nome_con_spazi = colonne[1].text.strip()
+        nome = colonne[1].text.strip()
         punteggio = colonne[2].text.strip()
-        nome = nome_con_spazi.replace(" ","")
+        nome_fixato = " ".join(nome.split())
         if nome in utenti_filtrati:
             classifica.append({"posizione": posizione, "nome": nome, "punteggio": punteggio})
 
