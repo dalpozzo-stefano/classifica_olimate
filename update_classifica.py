@@ -7,7 +7,7 @@ import time
 URL = "https://gasmatematica.altervista.org/onehundredproblems/leaderboard.php?ID=12905"
 
 # Utenti da includere nella classifica
-utenti_filtrati = {"Viola Franceschetti", "Sebastiano Santin", "NomeUtente3"}
+utenti_filtrati = {"Giovanni Iotti", "Stefano Dal Pozzo", "NomeUtente3"}
 
 def estrai_classifica():
     response = requests.get(URL)
