@@ -1,27 +1,27 @@
 [
     {
-        "posizione": "86",
+        "posizione": "1",
         "nome": "Stefano Dal Pozzo",
-        "punteggio": "60164"
+        "punteggio": "1000"
     },
     {
-        "posizione": "268",
-        "nome": "Giovanni Iotti",
-        "punteggio": "49396"
-    },
-    {
-        "posizione": "280",
-        "nome": "Filippo Casadio",
-        "punteggio": "48425"
-    },
-    {
-        "posizione": "290",
-        "nome": "Francesco Torluccio",
-        "punteggio": "47950"
-    },
-    {
-        "posizione": "336",
+        "posizione": "1",
         "nome": "Glauco Masi",
-        "punteggio": "42933"
+        "punteggio": "1000"
+    },
+    {
+        "posizione": "1",
+        "nome": "Giovanni Iotti",
+        "punteggio": "1000"
+    },
+    {
+        "posizione": "1",
+        "nome": "Francesco Torluccio",
+        "punteggio": "1000"
+    },
+    {
+        "posizione": "1",
+        "nome": "Filippo Casadio",
+        "punteggio": "1000"
     }
 ]
