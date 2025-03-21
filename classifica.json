@@ -1,31 +1,31 @@
 [
     {
-        "posizione": "1",
+        "posizione": "3",
+        "nome": "Samuele Buonasorte",
+        "punteggio": "1317"
+    },
+    {
+        "posizione": "4",
         "nome": "Stefano Dal Pozzo",
         "punteggio": "1000"
     },
     {
-        "posizione": "1",
-        "nome": "Samuele Buonasorte",
-        "punteggio": "1000"
-    },
-    {
-        "posizione": "1",
+        "posizione": "4",
         "nome": "Glauco Masi",
         "punteggio": "1000"
     },
     {
-        "posizione": "1",
+        "posizione": "4",
         "nome": "Giovanni Iotti",
         "punteggio": "1000"
     },
     {
-        "posizione": "1",
+        "posizione": "4",
         "nome": "Francesco Torluccio",
         "punteggio": "1000"
     },
     {
-        "posizione": "1",
+        "posizione": "4",
         "nome": "Filippo Casadio",
         "punteggio": "1000"
     }
