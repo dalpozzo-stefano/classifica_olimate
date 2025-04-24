@@ -1,31 +1,31 @@
 [
     {
-        "posizione": "210",
+        "posizione": "221",
         "nome": "Giovanni Iotti",
-        "punteggio": "2149"
+        "punteggio": "2433"
     },
     {
-        "posizione": "240",
-        "nome": "Samuele Buonasorte",
-        "punteggio": "1980"
-    },
-    {
-        "posizione": "310",
-        "nome": "Filippo Casadio",
-        "punteggio": "1452"
-    },
-    {
-        "posizione": "353",
+        "posizione": "276",
         "nome": "Stefano Dal Pozzo",
-        "punteggio": "1000"
+        "punteggio": "2044"
     },
     {
-        "posizione": "353",
+        "posizione": "287",
+        "nome": "Samuele Buonasorte",
+        "punteggio": "1991"
+    },
+    {
+        "posizione": "325",
+        "nome": "Filippo Casadio",
+        "punteggio": "1612"
+    },
+    {
+        "posizione": "369",
         "nome": "Glauco Masi",
         "punteggio": "1000"
     },
     {
-        "posizione": "353",
+        "posizione": "369",
         "nome": "Francesco Torluccio",
         "punteggio": "1000"
     }
